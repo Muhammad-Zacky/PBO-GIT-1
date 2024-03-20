@@ -10,7 +10,7 @@ class SegitigaBintang {
      
     int tsmz3019173222,kltwi1,kltwij;
   
-    tinggi_segitiga = 5;
+    tsmz3019173222 = 5;
      
     System.out.println();
     
