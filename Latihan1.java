@@ -6,7 +6,7 @@ class SegitigaBintang {
     Scanner input = new Scanner(System.in);
        
     System.out.println("Program Segitigah");
-    System.out.println();
+    System.out.println("Latihan 1");
      
     int tsmz3019173222,kltwi1,kltwij;
   
