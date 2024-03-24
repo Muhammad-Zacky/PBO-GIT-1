@@ -1,25 +1,17 @@
-import java.util.Scanner;
-   
-class SegitigaBintang {
-  public static void main(String args[]){
-            
-    Scanner input = new Scanner(System.in);
-       
-    System.out.println("Program Segitigah");
-    System.out.println("Latihan 1");
-     
-    int tsmz3019173222,kltwi1,kltwij;
-  
-    tsmz3019173222 = 5;
-     
-    System.out.println();
-    
-    for(kltwi1=1; kltwi1<=tsmz3019173222; kltwi1++) {
-      for(kltwij=1; kltwij<=kltwi1; kltwij++) {
-        System.out.print(" *");
-      }
-      System.out.println();
+public class Latihan1 {
+
+    public static void main(String[] args) {
+        
+        int i, j, k;
+        for(i=0; i<=3; i++){
+            for(j=3; j>=i; j--){
+                System.out.print(" ");
+        }
+        for(k=0; k<=i; k++){
+                System.out.print("* ");
+        }System.out.println("");   
     }
-     
-  }
+        
+    }
+    
 }
